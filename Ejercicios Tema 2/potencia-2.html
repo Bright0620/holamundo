@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Saludo</title>
+</head>
+<body>
+  <script>
+   const MSG_MAX = 20;
+   const MSG_MIN = 10;
+   const BASE = 2
+   const MSG_FINAL = "2 elavado a"
+   
+   let contador = 0;
+   
+   while (contador > MSG_MIN && contador < MSG_MAX) {
+    document.write(`${MSG_FINAL} ${contador} igual a ${BASE ** contador}<br>`)
+    contador++
+   }
+    
+  </script>
+</body>
+</html>

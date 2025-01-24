@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Saludo</title>
+</head>
+<body>
+  <script>
+    const MSG_1 = "Pon un numero";
+	const MSG_2 = "Tabla de Multiplicar";
+    let numero;
+	let mult = 0;
+	let res = 0;
+	
+    //Leo el numero introducido por el usuario, le pregunto el numero
+    numero = prompt(MSG_1)
+	//Tabla de Multiplicar
+    document.write(MSG_2);
+
+    mult = mult + 1;
+    res= numero * mult;
+	
+    //Escribo el numero en el navegador
+    document.write(`<br>${numero} x ${mult} = ${res}<br>`);
+	
+	 mult = mult + 1;
+    res= numero * mult;
+	
+    //Escribo el numero en el navegador
+    document.write(`${numero} x ${mult} = ${res}<br>`);
+	
+	 mult = mult + 1;
+    res= numero * mult;
+	
+    //Escribo el numero en el navegador
+    document.write(`${numero} x ${mult} = ${res}<br>`);
+
+  </script>
+</body>
+</html>

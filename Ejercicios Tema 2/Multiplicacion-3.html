@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Saludo</title>
+</head>
+<body>
+  <script>
+   const MSG = "TABLA DE MULTIPLICAR DEL"
+   const NUM_MAX1 = 5;
+   const NUM_MAX2 = 10;
+   const REPETICIONES = 5;
+   let NUM = 1
+   
+   let i = 1;
+   let j = 1;
+   
+   while (i <= NUM_MAX1){
+       document.write(MSG)
+       document.write(i)
+	   
+	   document.write(`<br>`)
+	   
+	   while (j <= NUM_MAX2) {
+	         document.write(`${i} x ${j} = ${i * j}`)
+			 document.write(`<br>`)
+			 j++
+	    }
+		j=1
+	    i++
+	}
+ 
+  </script>
+</body>
+</html>
